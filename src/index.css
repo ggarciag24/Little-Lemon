@@ -148,10 +148,69 @@ a:active {
 }
 
 /* Footer styling */
+
 .footer {
   color: #EE9972;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   background-color: #EDEFEE;
+}
+
+/* Reservations styling */
+
+.reservation-banner > img {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 10px;
+  height: 30rem;
+  width: 60rem;
+}
+
+.reserve-heading {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.details-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.date-details {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.time-details {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.diners-details {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.reserve-btn {
+  background-color: #F4CE14;
+  border-color: #F4CE14;
+  height: 2.2rem;
+  width: 10rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
