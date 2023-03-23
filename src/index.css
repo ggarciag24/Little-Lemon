@@ -80,3 +80,69 @@ a:active {
   margin-top: 6rem;
   position: absolute;
 }
+
+/* Main styling */
+
+.specials-heading {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.online-menu-btn {
+  background-color: #F4CE14;
+  border-color: #F4CE14;
+  height: 2.2rem;
+  border-radius: 10px;
+}
+
+.card-container {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.food-card {
+  height: 30rem;
+  width: 16rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #EDEFEE;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-card > h3 {
+  color: #EE9972;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.food-img {
+  height: 12rem;
+  width: 16rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.food-detail {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.card-btn {
+  background-color: #F4CE14;
+  border-color: #F4CE14;
+  height: 2.2rem;
+  width: max-content;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
