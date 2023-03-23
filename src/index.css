@@ -146,3 +146,12 @@ a:active {
   margin-right: auto;
   margin-bottom: 1rem;
 }
+
+/* Footer styling */
+.footer {
+  color: #EE9972;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #EDEFEE;
+}
