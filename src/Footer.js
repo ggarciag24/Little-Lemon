@@ -3,7 +3,7 @@
 function Footer() {
     return(
         <footer>
-            <h4>Copyright Little Lemon</h4>
+            {/* <h4>Copyright Little Lemon</h4> */}
         </footer>
     )
 }
