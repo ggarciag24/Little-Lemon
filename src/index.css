@@ -214,3 +214,50 @@ a:active {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* About page styling */
+
+.about-banner {
+  background-color: #495E57;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 10px;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-banner > h1 {
+  color: #F4CE14;
+}
+
+.about-banner > p {
+  background-color: #495E57;
+  color: #F4CE14;
+  width: 24%;
+  position: absolute;
+  top: 16rem;
+  border-radius: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.banner-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-images > img {
+  flex: 20%;
+  height: 14rem;
+  width: 16rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
